@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "title": "Twas the night before Christmas",
+    "type": "http://schema.org/Book",
+    "language": [
+      "en"
+    ],
+    "description": "A well-known poem about an important Christmas Eve visitor.",
+    "author": [
+      {
+        "name": "Clement Clarke Moore",
+        "links": [
+          {
+            "href": "https://openlibrary.org/authors/OL51027A",
+            "type": "text/html",
+            "rel": "author"
+          }
+        ]
+      }
+    ],
+    "subtitle": "a visit from St. Nicholas",
+    "numberOfPages": 30
+  },
+  "links": [
+    {
+      "href": "https://openlibrary.org/opds/books/OL6549269M",
+      "type": "application/opds-publication+json",
+      "rel": "self"
+    },
+    {
+      "href": "https://openlibrary.org/books/OL6549269M",
+      "type": "text/html",
+      "rel": "alternate"
+    },
+    {
+      "href": "https://openlibrary.org/books/OL6549269M.json",
+      "type": "application/json",
+      "rel": "alternate"
+    },
+    {
+      "href": "https://archive.org/details/twasnightbeforec00moor_2?view=theater&wrapper=false",
+      "type": "text/html",
+      "rel": "http://opds-spec.org/acquisition/open-access",
+      "properties": {
+        "availability": "available",
+        "more": {
+          "href": "https://archive.org/services/loans/loan/?action=webpub&identifier=twasnightbeforec00moor_2&opds=1",
+          "rel": "http://opds-spec.org/acquisition/",
+          "type": "application/opds-publication+json"
+        }
+      }
+    },
+    {
+      "href": "https://archive.org/download/twasnightbeforec00moor_2/twasnightbeforec00moor_2.pdf",
+      "type": "application/pdf",
+      "rel": "http://opds-spec.org/acquisition/open-access",
+      "properties": {
+        "availability": "available",
+        "more": {
+          "href": "https://archive.org/services/loans/loan/?action=webpub&identifier=twasnightbeforec00moor_2&opds=1",
+          "rel": "http://opds-spec.org/acquisition/",
+          "type": "application/opds-publication+json"
+        }
+      }
+    },
+    {
+      "href": "https://archive.org/download/twasnightbeforec00moor_2/twasnightbeforec00moor_2.epub",
+      "type": "application/epub+zip",
+      "rel": "http://opds-spec.org/acquisition/open-access",
+      "properties": {
+        "availability": "available",
+        "more": {
+          "href": "https://archive.org/services/loans/loan/?action=webpub&identifier=twasnightbeforec00moor_2&opds=1",
+          "rel": "http://opds-spec.org/acquisition/",
+          "type": "application/opds-publication+json"
+        }
+      }
+    }
+  ],
+  "images": [
+    {
+      "href": "https://covers.openlibrary.org/b/id/15129283-L.jpg",
+      "type": "image/jpeg",
+      "rel": "cover"
+    }
+  ]
+}

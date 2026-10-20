@@ -1,0 +1,1278 @@
+{
+  "@context": "https://readium.org/webpub-manifest/context.jsonld",
+  "metadata": {
+    "title": "Lenny Catalog",
+    "numberOfItems": 25,
+    "itemsPerPage": 50,
+    "currentPage": 1
+  },
+  "links": [
+    {
+      "href": "https://lennyforlibraries.org/v1/api/shelf",
+      "type": "application/opds+json",
+      "rel": "http://opds-spec.org/shelf",
+      "title": "Bookshelf"
+    },
+    {
+      "href": "https://lennyforlibraries.org/v1/api/profile",
+      "type": "application/opds-profile+json",
+      "rel": "profile",
+      "title": "User Profile"
+    },
+    {
+      "href": "https://lennyforlibraries.org/v1/api/opds/search?query=edition_key%3A%28OL37044898M+OR+OL51733541M+OR+OL37044496M+OR+OL37044563M+OR+OL37044497M+OR+OL37044790M+OR+OL37044526M+OR+OL37044725M+OR+OL37044622M+OR+OL37044572M+OR+OL51733522M+OR+OL51746364M+OR+OL37044641M+OR+OL51733443M+OR+OL37044807M+OR+OL37044548M+OR+OL37044530M+OR+OL37044696M+OR+OL37044499M+OR+OL51733458M+OR+OL37044733M+OR+OL51733472M+OR+OL51733815M+OR+OL37044636M+OR+OL59176589M%29&limit=50",
+      "type": "application/opds+json",
+      "rel": "self"
+    },
+    {
+      "href": "https://lennyforlibraries.org/v1/api/opds/search?query=edition_key%3A%28OL37044898M+OR+OL51733541M+OR+OL37044496M+OR+OL37044563M+OR+OL37044497M+OR+OL37044790M+OR+OL37044526M+OR+OL37044725M+OR+OL37044622M+OR+OL37044572M+OR+OL51733522M+OR+OL51746364M+OR+OL37044641M+OR+OL51733443M+OR+OL37044807M+OR+OL37044548M+OR+OL37044530M+OR+OL37044696M+OR+OL37044499M+OR+OL51733458M+OR+OL37044733M+OR+OL51733472M+OR+OL51733815M+OR+OL37044636M+OR+OL59176589M%29&limit=50&page=1",
+      "type": "application/opds+json",
+      "rel": "first"
+    }
+  ],
+  "publications": [
+    {
+      "metadata": {
+        "title": "All’s Well That Ends Well",
+        "type": "http://schema.org/Book",
+        "language": [
+          "en"
+        ],
+        "description": "<p><i>All’s Well That Ends Well</i> was not popular during <a href=\"https://standardebooks.org/ebooks/william-shakespeare\">Shakespeare’s</a> time, and is still considered to be a play without renown even today. It’s also one of the three “problem plays,” in that it deals with controversial social issues. Although it remains unloved by the public, productions have featured star-studded casts, including actresses like Dame Judi Dench and Claudie Blakley.</p>\n\t\t\t<p>Helena, daughter of a skilled doctor and adopted child of the Countess of Rousillon, is in love with Bertram, the Countess’s son. Helena cures the King of France and is rewarded with a husband of her choice, so she selects Bertram. He contests the legitimacy of their marriage, and insists on demanding that she complete two tasks before he can consider their marriage legitimate: She must wear his family ring, and provide him an heir.</p>\n\t\t\t<p>This Standard Ebooks production is based on William George Clark and William Aldis Wright’s 1887 Victoria edition, which is taken from the Globe edition.</p>",
+        "author": [
+          {
+            "name": "William Shakespeare",
+            "links": [
+              {
+                "href": "https://openlibrary.org/authors/OL9388A",
+                "type": "text/html",
+                "rel": "author"
+              }
+            ]
+          }
+        ],
+        "numberOfPages": 160
+      },
+      "links": [
+        {
+          "href": "https://lennyforlibraries.org/v1/api/opds/37044898",
+          "type": "application/opds-publication+json",
+          "rel": "self",
+          "templated": false
+        },
+        {
+          "href": "https://lennyforlibraries.org/v1/api/items/37044898/read",
+          "type": "text/html",
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "title": "Read",
+          "templated": false
+        }
+      ],
+      "images": [
+        {
+          "href": "https://covers.openlibrary.org/b/id/12622260-L.jpg",
+          "type": "image/jpeg",
+          "rel": "cover"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "The Food of the Gods",
+        "type": "http://schema.org/Book",
+        "language": [
+          "en"
+        ],
+        "description": "<p>In the early twentieth century, two scientists develop a substance to promote continuous growth in plants and animals. In testing it on poultry at an experimental farm, the “Food of the Gods” is carelessly scattered about, resulting in giant insects, giant rats, and so on. When anxious parents give it to sickly children, it creates a race of giant humans.</p> <p>Though there are many touches of humor in this somewhat satirical look at society and how one invention or discovery could overturn it, the book ends on a much more serious and thoughtful note, and includes a warning against unchecked technology in the hands of capitalism. It also points out how easily a rabble-rousing politician can incite hatred towards those who are different.</p> <p>The book was published under its full title, <i>The Food of the Gods and How It Came to Earth</i>, in 1904, and has since been used as the basis for a number of movies and comic books.</p>",
+        "author": [
+          {
+            "name": "H. G. Wells",
+            "links": [
+              {
+                "href": "https://openlibrary.org/authors/OL13066A",
+                "type": "text/html",
+                "rel": "author"
+              }
+            ]
+          }
+        ],
+        "numberOfPages": 300
+      },
+      "links": [
+        {
+          "href": "https://lennyforlibraries.org/v1/api/opds/51733541",
+          "type": "application/opds-publication+json",
+          "rel": "self",
+          "templated": false
+        },
+        {
+          "href": "https://lennyforlibraries.org/v1/api/items/51733541/read",
+          "type": "text/html",
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "title": "Read",
+          "templated": false
+        }
+      ],
+      "images": [
+        {
+          "href": "https://covers.openlibrary.org/b/id/14634152-L.jpg",
+          "type": "image/jpeg",
+          "rel": "cover"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "The Railway Children",
+        "type": "http://schema.org/Book",
+        "language": [
+          "en"
+        ],
+        "description": "<p><i>The Railway Children</i> is <a href=\"https://standardebooks.org/ebooks/e-nesbit\">Edith Nesbit’s</a> most well-known and well-loved book for young readers. Since its first book publication in 1906, it has been made into movies, radio plays and television series several times, dramatised in the theatre, performed in actual railway stations, and even turned into a musical.</p>\r\n\t\t\t<p>It tells the story of three children: Roberta, Peter and Phyllis, who with their mother are forced to leave their comfortable suburban home and go to live in a small cottage in the country, after their father is taken away from them for what at first seem inexplicable reasons. They live there very quietly, not going to school, whilst their mother writes stories and poems to earn a small income. The children’s lives, however, are greatly enlivened by their proximity to a nearby railway line and station, in which they take great interest. They befriend the railway staff and have several adventures in which they demonstrate considerable initiative and courage.</p>\r\n\t\t\t<p>One unusual topic touched on by the book is the then-current Russia-Japan war, which divided opinion in England. Nesbit was clearly opposed to the actions of the Tsarist government of Russia, and she introduces into the story a <a href=\"https://standardebooks.org/ebooks/leo-tolstoy\">Tolstoy</a>-like Russian writer who has escaped from a prison camp in Siberia, to which he was condemned for publishing a book espousing his liberal views.</p>",
+        "author": [
+          {
+            "name": "Edith Nesbit",
+            "links": [
+              {
+                "href": "https://openlibrary.org/authors/OL18053A",
+                "type": "text/html",
+                "rel": "author"
+              }
+            ]
+          }
+        ],
+        "numberOfPages": 176
+      },
+      "links": [
+        {
+          "href": "https://lennyforlibraries.org/v1/api/opds/37044496",
+          "type": "application/opds-publication+json",
+          "rel": "self",
+          "templated": false
+        },
+        {
+          "href": "https://lennyforlibraries.org/v1/api/items/37044496/read",
+          "type": "text/html",
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "title": "Read",
+          "templated": false
+        }
+      ],
+      "images": [
+        {
+          "href": "https://covers.openlibrary.org/b/id/12621743-L.jpg",
+          "type": "image/jpeg",
+          "rel": "cover"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Gitanjali",
+        "type": "http://schema.org/Book",
+        "language": [
+          "en"
+        ],
+        "description": "<p>Widely regarded as one of the most important figures in Indian (and more specifically Bengali) literary history, <a href=\"https://standardebooks.org/ebooks/rabindranath-tagore\">Rabindranath Tagore</a> was the first Indian—indeed, the first person outside Europe—to win the Nobel Prize in Literature, largely in recognition of his “spiritual offering of songs,” <i>Gitanjali</i>.</p>\n\t\t\t<p>Tagore himself translated the poems from the original Bengali, taking many liberties in the process. His English translation is rightly recognized as a work distinct from the Bengali original, consisting of major revisions, many elisions, and many poems originally published in other collections.</p>\n\t\t\t<p>Tagore’s lyrical simplicity, vivid imagery, and themes of nature, spirituality, death, and transcendence combine to produce a truly unique, powerfully moving work of thoughtful beauty. For many who read it, Tagore’s words in Song XCVI ring true: “What I have seen is unsurpassable. I have tasted of the hidden honey of this lotus that expands on the ocean of light, and thus I am blessed.”</p>",
+        "author": [
+          {
+            "name": "Rabindranath Tagore",
+            "links": [
+              {
+                "href": "https://openlibrary.org/authors/OL1770A",
+                "type": "text/html",
+                "rel": "author"
+              }
+            ]
+          },
+          {
+            "name": "Marie Luise Gothein",
+            "links": [
+              {
+                "href": "https://openlibrary.org/authors/OL4324199A",
+                "type": "text/html",
+                "rel": "author"
+              }
+            ]
+          },
+          {
+            "name": "William Butler Yeats",
+            "links": [
+              {
+                "href": "https://openlibrary.org/authors/OL21207A",
+                "type": "text/html",
+                "rel": "author"
+              }
+            ]
+          }
+        ],
+        "numberOfPages": 94
+      },
+      "links": [
+        {
+          "href": "https://lennyforlibraries.org/v1/api/opds/37044563",
+          "type": "application/opds-publication+json",
+          "rel": "self",
+          "templated": false
+        },
+        {
+          "href": "https://lennyforlibraries.org/v1/api/items/37044563/read",
+          "type": "text/html",
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "title": "Read",
+          "templated": false
+        }
+      ],
+      "images": [
+        {
+          "href": "https://covers.openlibrary.org/b/id/12621831-L.jpg",
+          "type": "image/jpeg",
+          "rel": "cover"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "The Enchanted Castle",
+        "type": "http://schema.org/Book",
+        "language": [
+          "en"
+        ],
+        "description": "<p><i>The Enchanted Castle</i> is a novel for young readers by <a href=\"https://standardebooks.org/ebooks/e-nesbit\">Edith Nesbit</a>, who was writing in the late Victorian and early Edwardian era in Britain. As in her other children’s books, it begins in the everyday world but quickly brings in the fantastical and magical. A large part of the delight of Nesbit’s books is that her children behave in quite ordinary ways, getting into scrapes, getting dirty and their clothes torn, making decisions which seem right to them at the time but which are generally wrong-headed. It’s the contrast between the ordinariness of the children and the magical adventures they become involved in which makes the books so charming.</p>\n\t\t\t<p><i>The Enchanted Castle</i> was originally serialized in <i>The Strand Magazine</i> alongside stories by <a href=\"https://standardebooks.org/ebooks/rudyard-kipling\">Rudyard Kipling</a> and <a href=\"https://standardebooks.org/ebooks/arthur-conan-doyle\">Arthur Conan Doyle</a>. The first book edition was published in 1907.</p>\n\t\t\t<p>In the story, Kathleen and her brothers Gerald and Jimmy find a way into a remarkable garden designed to create a Palladian landscape, full of statues and pseudo-Classical temples and buildings. It is not long before they come across a sleeping Princess. They wake her, and she introduces them to an item of real magical value, a ring which makes its wearer invisible. But once on, the ring won’t come off! “Those of my readers who have gone about much with an invisible companion will not need to be told how awkward the whole business is,” comments the author, which is indicative of the simple and direct language she uses, and the humor of the books. Even the invisibility ring, however, is not quite as simple as it seems; and many interesting and amusing adventures follow.</p>",
+        "author": [
+          {
+            "name": "Edith Nesbit",
+            "links": [
+              {
+                "href": "https://openlibrary.org/authors/OL18053A",
+                "type": "text/html",
+                "rel": "author"
+              }
+            ]
+          }
+        ],
+        "numberOfPages": 186
+      },
+      "links": [
+        {
+          "href": "https://lennyforlibraries.org/v1/api/opds/37044497",
+          "type": "application/opds-publication+json",
+          "rel": "self",
+          "templated": false
+        },
+        {
+          "href": "https://lennyforlibraries.org/v1/api/items/37044497/read",
+          "type": "text/html",
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "title": "Read",
+          "templated": false
+        }
+      ],
+      "images": [
+        {
+          "href": "https://covers.openlibrary.org/b/id/12621744-L.jpg",
+          "type": "image/jpeg",
+          "rel": "cover"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Howards End",
+        "type": "http://schema.org/Book",
+        "language": [
+          "en"
+        ],
+        "description": "<p><i>Howards End</i>, published in 1910, is considered by many to be <a href=\"https://standardebooks.org/ebooks/e-m-forster\">Forster’s</a> masterpiece. The plot revolves around three families in Edwardian England: the Schlegels, a trio of half-German, middle-class siblings who to poor people seem rich, but to rich people seem poor; the Wilcoxes, a large, wealthy family of businessmen; and the Basts, a lower class young couple struggling to keep up appearances.</p>\r\n\t\t\t<p>The Schlegel siblings are sharp, intelligent, and idealistic, and they pursue culture and art with an enthusiasm reminiscent of the Bloomsbury group. They befriend the Wilcoxes while on a trip abroad, and the lonely Wilcox matriarch and Margaret Schlegel, the strong-willed elder sister, strike up a friendship. As their families begin butting heads in London, Helen, the younger Schlegel sister, runs in to Leonard Bast while at the opera. Bast is proud and ambitious, but clearly impoverished and lacking gentility. Helen, a rash and fiery idealist, takes him up as a pet project, oblivious to the deep cultural gulf between Bast and themselves as she tries her best to educate him in matters of art and literature and lift him out of his class.</p>\r\n\t\t\t<p>The interplay between the three families becomes a complex reflection on social codes and class difference in England: how class can lock lives in place, and how even the well-to-do are not immune from becoming ossified in their station thanks to the seemingly-unbreakable social conventions of the age. Capitalism, a still-new philosophy of life, is juxtaposed against humanism and the arts as the families try to do what they each think is the right thing. Forster weaves these threads expertly against the backdrop of London city life and the cozy family cottage of Howards End, the ultimate centerpiece in these three families’ lives.</p>",
+        "author": [
+          {
+            "name": "E. M. Forster",
+            "links": [
+              {
+                "href": "https://openlibrary.org/authors/OL6898863A",
+                "type": "text/html",
+                "rel": "author"
+              }
+            ]
+          }
+        ],
+        "numberOfPages": 343
+      },
+      "links": [
+        {
+          "href": "https://lennyforlibraries.org/v1/api/opds/37044790",
+          "type": "application/opds-publication+json",
+          "rel": "self",
+          "templated": false
+        },
+        {
+          "href": "https://lennyforlibraries.org/v1/api/items/37044790/read",
+          "type": "text/html",
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "title": "Read",
+          "templated": false
+        }
+      ],
+      "images": [
+        {
+          "href": "https://covers.openlibrary.org/b/id/12622122-L.jpg",
+          "type": "image/jpeg",
+          "rel": "cover"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Far from the Madding Crowd",
+        "type": "http://schema.org/Book",
+        "language": [
+          "en"
+        ],
+        "description": "<p><i>Far from the Madding Crowd</i> was <a href=\"https://standardebooks.org/ebooks/thomas-hardy\">Thomas Hardy’s</a> fourth novel and was completed in 1874. It was originally serialized in <i>Cornhill Magazine</i> and was quickly published in a successful single volume.</p>\r\n\t\t\t<p>Hardy described Wessex as “a merely realistic dream country” and so it is in <i>Far from the Madding Crowd</i>, where an idyllic view of the countryside is interrupted by the bitter reality of farming life. The novel is the first that Hardy sets in fictional Wessex; he quickly realised that setting novels there could be a money-earner that would subsidise his poetry-writing ambitions.</p>\r\n\t\t\t<p>Gabriel Oak, the faithful man and aspiring farmer; Bathsheba Everdene, the young and independent lady farmer; William Boldwood, the lonely neighbour; and Sergeant Troy, the dashing military man, all lead intertwined lives which are full of love and loss.</p>",
+        "author": [
+          {
+            "name": "Thomas Hardy",
+            "links": [
+              {
+                "href": "https://openlibrary.org/authors/OL18277A",
+                "type": "text/html",
+                "rel": "author"
+              }
+            ]
+          }
+        ],
+        "numberOfPages": 424
+      },
+      "links": [
+        {
+          "href": "https://lennyforlibraries.org/v1/api/opds/37044526",
+          "type": "application/opds-publication+json",
+          "rel": "self",
+          "templated": false
+        },
+        {
+          "href": "https://lennyforlibraries.org/v1/api/items/37044526/read",
+          "type": "text/html",
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "title": "Read",
+          "templated": false
+        }
+      ],
+      "images": [
+        {
+          "href": "https://covers.openlibrary.org/b/id/12621783-L.jpg",
+          "type": "image/jpeg",
+          "rel": "cover"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Middlemarch",
+        "type": "http://schema.org/Book",
+        "language": [
+          "en"
+        ],
+        "description": "<p>“<a href=\"https://standardebooks.org/ebooks/george-eliot\">George Eliot</a>” was the pen-name of Mary Ann Evans, one of the greatest of English novelists of the Victorian era. Her long novel <i>Middlemarch</i>, subtitled <i>A Study of Provincial Life</i>, is generally considered to be her finest work.</p>\r\n\t\t\t<p>Published in eight installments between 1871 and 1872, <i>Middlemarch</i> tells the intertwined stories of a variety of people living in the vicinity of the (fictional) midlands town of Middlemarch during the early 1830s, the time of the great Reform Act. The novel is remarkable for its realistic treatment of situation, character and relationships and also demonstrates its author’s accurate knowledge of political issues, medicine, politics, and rural economy. Yet it also includes several touches of humor.</p>\r\n\t\t\t<p>The novel’s main characters include: Dorothea Brooke, a religiously-inclined and very intelligent young woman who marries a much older man believing that she can assist him in his scholarly studies; Dr. Tertius Lydgate, a doctor who comes to Middlemarch to further his medical research and implement his ideas for treatment, but whose plans are thrown into disarray by an unwise marriage; Fred Vincy, an idle young man, the son of the town’s Mayor, who gets into a mire of debt; and several others.</p>\r\n\t\t\t<p>The initial reception of the novel by critics was mixed, with a number of unfavorable reviews, but its reputation has grown through time and <i>Middlemarch</i> is now generally considered to be one of the best novels ever written in English.</p>",
+        "author": [
+          {
+            "name": "George Eliot",
+            "links": [
+              {
+                "href": "https://openlibrary.org/authors/OL24528A",
+                "type": "text/html",
+                "rel": "author"
+              }
+            ]
+          },
+          {
+            "name": "Jessica Hische",
+            "links": [
+              {
+                "href": "https://openlibrary.org/authors/OL6984258A",
+                "type": "text/html",
+                "rel": "author"
+              }
+            ]
+          },
+          {
+            "name": "Francine Prose",
+            "links": [
+              {
+                "href": "https://openlibrary.org/authors/OL29264A",
+                "type": "text/html",
+                "rel": "author"
+              }
+            ]
+          },
+          {
+            "name": "ReadinGreat",
+            "links": [
+              {
+                "href": "https://openlibrary.org/authors/OL10482461A",
+                "type": "text/html",
+                "rel": "author"
+              }
+            ]
+          },
+          {
+            "name": "Claire Jarvis",
+            "links": [
+              {
+                "href": "https://openlibrary.org/authors/OL2645984A",
+                "type": "text/html",
+                "rel": "author"
+              }
+            ]
+          },
+          {
+            "name": "Margot Everett",
+            "links": [
+              {
+                "href": "https://openlibrary.org/authors/OL12440091A",
+                "type": "text/html",
+                "rel": "author"
+              }
+            ]
+          }
+        ],
+        "numberOfPages": 795
+      },
+      "links": [
+        {
+          "href": "https://lennyforlibraries.org/v1/api/opds/37044725",
+          "type": "application/opds-publication+json",
+          "rel": "self",
+          "templated": false
+        },
+        {
+          "href": "https://lennyforlibraries.org/v1/api/items/37044725/read",
+          "type": "text/html",
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "title": "Read",
+          "templated": false
+        }
+      ],
+      "images": [
+        {
+          "href": "https://covers.openlibrary.org/b/id/12622028-L.jpg",
+          "type": "image/jpeg",
+          "rel": "cover"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Incidents in the Life of a Slave Girl",
+        "type": "http://schema.org/Book",
+        "language": [
+          "en"
+        ],
+        "description": "<p>Harriet Jacobs was born a slave in North Carolina, but, in her words, didn’t realize it until her father died when she was six years old. Six years later, when her mistress died, she was bequeathed to the mistress’ granddaughter, thereby coming into the household of the mistress’ lecherous son. Several years later she escaped, only to have to hide for seven years in a cramped garret that did not allow her to stand or sit up. She was finally able to make her way north, where she was reunited with her children. Many years later, after narrowly avoiding capture multiple times due to the Fugitive Slave Law, her employer purchased her freedom.</p>\r\n\t\t\t<p>Jacobs, writing as <a href=\"https://standardebooks.org/ebooks/linda-brent\">Linda Brent</a>, tells the riveting story of her life in the South as a slave. She brings an unflinching eye to “good” masters and mistresses who nevertheless lie to, steal from, and continually break promises to their slaves, and to bad masters who beat and kill their slaves for no particular reason. Even in the North, after her escape, she is disappointed to find prejudice and degrading treatment for blacks. After having been convinced to write down her story, it took years to find a publisher who would print it. It was finally made available to the public just a few months before the shots at Fort Sumter that began the Civil War.</p>",
+        "author": [
+          {
+            "name": "Harriet A. Jacobs",
+            "links": [
+              {
+                "href": "https://openlibrary.org/authors/OL26467A",
+                "type": "text/html",
+                "rel": "author"
+              }
+            ]
+          }
+        ],
+        "numberOfPages": 236
+      },
+      "links": [
+        {
+          "href": "https://lennyforlibraries.org/v1/api/opds/37044622",
+          "type": "application/opds-publication+json",
+          "rel": "self",
+          "templated": false
+        },
+        {
+          "href": "https://lennyforlibraries.org/v1/api/items/37044622/read",
+          "type": "text/html",
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "title": "Read",
+          "templated": false
+        }
+      ],
+      "images": [
+        {
+          "href": "https://covers.openlibrary.org/b/id/12621898-L.jpg",
+          "type": "image/jpeg",
+          "rel": "cover"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "The Art of Money Getting",
+        "type": "http://schema.org/Book",
+        "language": [
+          "en"
+        ],
+        "description": "<p><a href=\"https://standardebooks.org/ebooks/p-t-barnum\"><abbr>P. T.</abbr> Barnum</a>, the legendary entertainer and co-founder of the Barnum and Bailey Circus, was not just a successful businessman, but a philanthropist and writer as well. This short, pamphlet-length work distills Barnum’s advice on achieving success and wealth, in his own words.</p>",
+        "author": [
+          {
+            "name": "P. T. Barnum",
+            "links": [
+              {
+                "href": "https://openlibrary.org/authors/OL78901A",
+                "type": "text/html",
+                "rel": "author"
+              }
+            ]
+          }
+        ],
+        "numberOfPages": 64
+      },
+      "links": [
+        {
+          "href": "https://lennyforlibraries.org/v1/api/opds/37044572",
+          "type": "application/opds-publication+json",
+          "rel": "self",
+          "templated": false
+        },
+        {
+          "href": "https://lennyforlibraries.org/v1/api/items/37044572/read",
+          "type": "text/html",
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "title": "Read",
+          "templated": false
+        }
+      ],
+      "images": [
+        {
+          "href": "https://covers.openlibrary.org/b/id/12621840-L.jpg",
+          "type": "image/jpeg",
+          "rel": "cover"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Ozma of Oz",
+        "type": "http://schema.org/Book",
+        "language": [
+          "en"
+        ],
+        "description": "<p>Three years after the publication of <a href=\"https://standardebooks.org/ebooks/l-frank-baum/the-marvelous-land-of-oz\"><i>The Marvelous Land of Oz</i></a> and encouraged by young fans’ letters, <a href=\"https://standardebooks.org/ebooks/l-frank-baum\"><abbr>L.</abbr> Frank Baum</a> once more returned to write about lands full of magic and wonder.</p> <p>On a ship on her way to Australia for a holiday with Uncle Henry, Dorothy Gale gets tossed overboard during a storm. Washing ashore in a chicken-coop, Dorothy and her newfound friend, a hen she names Billina, embark on an exploration of the new land. After meeting old friends and making new ones, Dorothy joins the Princess Ozma of Oz on a mission to restore the royal family of Ev to their rightful place on the throne.</p> <p>This is the first book in which it becomes clear that Baum intended to make Oz a series, and, like its predecessors, <i>Ozma of Oz</i> has been adapted to theater and film.</p>",
+        "author": [
+          {
+            "name": "L. Frank Baum",
+            "links": [
+              {
+                "href": "https://openlibrary.org/authors/OL23431A",
+                "type": "text/html",
+                "rel": "author"
+              }
+            ]
+          }
+        ],
+        "numberOfPages": 120
+      },
+      "links": [
+        {
+          "href": "https://lennyforlibraries.org/v1/api/opds/51733522",
+          "type": "application/opds-publication+json",
+          "rel": "self",
+          "templated": false
+        },
+        {
+          "href": "https://lennyforlibraries.org/v1/api/items/51733522/read",
+          "type": "text/html",
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "title": "Read",
+          "templated": false
+        }
+      ],
+      "images": [
+        {
+          "href": "https://covers.openlibrary.org/b/id/14634133-L.jpg",
+          "type": "image/jpeg",
+          "rel": "cover"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Ulysses",
+        "type": "http://schema.org/Book",
+        "language": [
+          "en"
+        ],
+        "description": "<p><a href=\"https://standardebooks.org/ebooks/james-joyce\">James Joyce’s</a> most celebrated novel, and one of the most highly-regarded novels in the English language, records the events of one day—Thursday the 16th of June, 1904—in the city of Dublin.</p> <p>The reader is first reintroduced to Stephen Dedalus, the protagonist of Joyce’s previous novel <i><a href=\"https://standardebooks.org/ebooks/james-joyce/a-portrait-of-the-artist-as-a-young-man\">A Portrait of the Artist as a Young Man</a></i>. Stephen is now living in a rented Martello tower and working at a school, having completed his B.A. and a period of attempted further study in Paris. The focus then shifts to the book’s protagonist, Leopold Bloom, an advertising canvasser and social outsider. It is a work day, so both Bloom and Stephen depart their homes for their respective journeys around Dublin.</p> <p>While containing a richly detailed story and still being generally described as a novel, <i>Ulysses</i> breaks many of the bounds otherwise associated with the form. It consists of eighteen chapters, or “episodes,” each somehow echoing a scene in <a href=\"https://standardebooks.org/ebooks/homer\">Homer’s</a> <i><a href=\"https://standardebooks.org/ebooks/homer/the-odyssey/william-cullen-bryant\">Odyssey</a></i>. Each episode takes place in a different setting, and each is written in a different, and often unusual, style. The book’s chief innovation is commonly cited to be its expansion of the “free indirect discourse” or “interior monologue” technique that Joyce used in his previous two books.</p> <p><i>Ulysses</i> is known not only for its formal novelty and linguistic inventiveness, but for its storied publication history. The first fourteen episodes of the book were serialized between 1918 and 1920 in <i>The Little Review</i>, while several episodes were published in 1919 in <i>The Egoist</i>. In 1921, the New York Society for the Suppression of Vice won a trial regarding obscenity in the thirteenth episode, “Nausicaa.” <i>The Little Review</i>’s editors were enjoined against publishing any further installments; <i>Ulysses</i> would not appear again in America until 1934.</p> <p>The outcome of the 1921 trial worsened Joyce’s already-considerable difficulties in finding a publisher in England. After lamenting to Sylvia Beach, owner of the Parisian bookshop Shakespeare and Company, that it might never be published at all, Beach offered to publish it in Paris, and <i>Ulysses</i> first appeared in its entirety in February 1922.</p> <p>The first printing of the first edition was filled with printing errors. A corrected second edition was published in 1924. Stuart Gilbert’s 1932 edition benefited from correspondence with Joyce, and claimed in its front matter to be “the definitive standard edition,” but was later found to have introduced errors of its own.</p> <p>The novel’s initial reception was mixed. W. B. Yeats called it “mad,” but would later agree with the positive assessments of <a href=\"https://standardebooks.org/ebooks/t-s-eliot\">T. S. Eliot</a> and Ezra Pound, stating that it was “indubitably a work of genius.” Joyce’s second biographer Richard Ellmann reports that one doctor claimed to have seen writing of equal merit by his insane patients, and <a href=\"https://standardebooks.org/ebooks/virginia-woolf\">Virginia Woolf</a> derided it as “underbred.” Joyce’s aunt, Josephine Murray, rejected it as “unfit to read” on account of its purported obscenity, to which Joyce famously retorted that if that were so, then life was not fit to live.</p> <p>The sheer density of references in the text make <i>Ulysses</i> a book that virtually demands of the reader access to critical interpretation; but it also makes it a book that is easily obscured by the industry of scholarship it has generated over the last century. The dismissal of a serious interpretation is tempting, but would trivialize Joyce’s enormous project as an extended joke or an elaborate exercise in ego. Likewise dismissing it as uninterpretable would ignore the profusion of earnest critical analyses.</p> <p>Today <i>Ulysses</i> is considered by many to be the zenith of 20th century literature: both one of the richest, and also the most difficult, books to ever be written. To appreciate it is not to think it unintelligible; rather, perhaps the best description of it is the one used of Ulysses himself in a 21st century translation of Homer’s epic—“complicated.”</p> <p>This Standard Ebooks edition is based on a transcription of the 1922 Shakespeare and Company first edition, with emendations from pre-1929 errata lists and the second edition in its 1927 ninth printing by Shakespeare and Company. It does not track any one particular edition, but rather is a blend of pre-1929 editions that aims to contain what scholars might consider to be the most accurate version of what was printed before 1929. Therefore, various probable misprints have been retained that may have been corrected in post-1929 editions. Consultation of various editions of the book and the historical collation list appended to Hans Walter Gabler’s Critical and Synoptic Edition is advised before contacting Standard Ebooks about potential mistakes.</p>",
+        "author": [
+          {
+            "name": "James Joyce",
+            "links": [
+              {
+                "href": "https://openlibrary.org/authors/OL31827A",
+                "type": "text/html",
+                "rel": "author"
+              }
+            ]
+          }
+        ],
+        "numberOfPages": 736
+      },
+      "links": [
+        {
+          "href": "https://lennyforlibraries.org/v1/api/opds/51746364",
+          "type": "application/opds-publication+json",
+          "rel": "self",
+          "templated": false
+        },
+        {
+          "href": "https://lennyforlibraries.org/v1/api/items/51746364/read",
+          "type": "text/html",
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "title": "Read",
+          "templated": false
+        }
+      ],
+      "images": [
+        {
+          "href": "https://covers.openlibrary.org/b/id/14635756-L.jpg",
+          "type": "image/jpeg",
+          "rel": "cover"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "The Awakening",
+        "type": "http://schema.org/Book",
+        "language": [
+          "en"
+        ],
+        "description": "<p><i>The Awakening</i> charts Edna Pontellier’s journey of self-discovery. The time spent with a younger friend on a summer holiday on Grand Isle in Lousiana unlocks a feeling in her that she can’t close away again. On returning to her family home in New Orleans, she starts to transition from unthinking housewife and mother into something freer and more confident, although this doesn’t meet with the full approval of the society she’s a part of.</p>\n\t\t\t<p><a href=\"https://standardebooks.org/ebooks/kate-chopin\">Kate Chopin</a> had written a novel previously, but she was mostly known as a writer of <a href=\"https://standardebooks.org/ebooks/kate-chopin/short-fiction\">Louisiana-set short stories</a>. <i>The Awakening</i>, while keeping the setting, charted new territory with its themes of marital infidelity and less-than-perfect devotion of a mother to her children. The consequent critical reception was less than enthusiastic—hardly surprising given the prevailing moral atmosphere of the time—and her next novel was cancelled. <i>The Awakening</i> was rediscovered in the 1960s and is now regarded as an important early example of American feminist literature.</p>",
+        "author": [
+          {
+            "name": "Kate Chopin",
+            "links": [
+              {
+                "href": "https://openlibrary.org/authors/OL35183A",
+                "type": "text/html",
+                "rel": "author"
+              }
+            ]
+          }
+        ],
+        "numberOfPages": 218
+      },
+      "links": [
+        {
+          "href": "https://lennyforlibraries.org/v1/api/opds/37044641",
+          "type": "application/opds-publication+json",
+          "rel": "self",
+          "templated": false
+        },
+        {
+          "href": "https://lennyforlibraries.org/v1/api/items/37044641/read",
+          "type": "text/html",
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "title": "Read",
+          "templated": false
+        }
+      ],
+      "images": [
+        {
+          "href": "https://covers.openlibrary.org/b/id/12621922-L.jpg",
+          "type": "image/jpeg",
+          "rel": "cover"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "The Last Man",
+        "type": "http://schema.org/Book",
+        "language": [
+          "en"
+        ],
+        "description": "<p><i>The Last Man</i> chronicles the last days of humanity in the 21st century as it is slowly obliterated by a global pandemic. Radical changes and events across Europe—the king abdicates, turning England into a Republic; war erupts between Greece and Turkey—weaken the fabric of society, allowing an unknown and deadly disease to quickly spread across the world. Political leaders are disorganized; spiritual figures offer little comfort; science yields no answers. Previously distinguished individuals abandon their people in their time of need out of cowardice, while others admirably rise up to the occasion. Yet, none of this matters at all when humanity comes to its end.</p> <p><a href=\"https://standardebooks.org/ebooks/mary-shelley\">Mary Shelley</a> wrote this book during the darkest time of her life. Over the years, she had lost her husband, Percy Bysshe Shelley; her close friend, Lord Byron; and her children. Writing the novel became an instrument to process her own hopelessness and isolation—various characters are impressions of her departed loved ones.</p> <p>Contemporary critics were not kind to <i>The Last Man</i>. While <i><a href=\"https://standardebooks.org/ebooks/mary-shelley/frankenstein\">Frankenstein</a></i> was lauded for its depiction of scientific presumption, humanity’s impotence and subsequent extinction were deemed offensive. The book faded into near-obscurity and merely survived until its rediscovery in the 1960s. After two World Wars, several epidemics, and the threat of nuclear annihilation, humanity’s end may not have seemed as absurd any more.</p>",
+        "author": [
+          {
+            "name": "Mary Shelley",
+            "links": [
+              {
+                "href": "https://openlibrary.org/authors/OL25342A",
+                "type": "text/html",
+                "rel": "author"
+              }
+            ]
+          }
+        ],
+        "numberOfPages": 411
+      },
+      "links": [
+        {
+          "href": "https://lennyforlibraries.org/v1/api/opds/51733443",
+          "type": "application/opds-publication+json",
+          "rel": "self",
+          "templated": false
+        },
+        {
+          "href": "https://lennyforlibraries.org/v1/api/items/51733443/read",
+          "type": "text/html",
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "title": "Read",
+          "templated": false
+        }
+      ],
+      "images": [
+        {
+          "href": "https://covers.openlibrary.org/b/id/14634041-L.jpg",
+          "type": "image/jpeg",
+          "rel": "cover"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Shirley",
+        "type": "http://schema.org/Book",
+        "language": [
+          "en"
+        ],
+        "description": "<p><i>Shirley</i>, published in 1849, was <a href=\"https://standardebooks.org/ebooks/charlotte-bronte\">Charlotte Brontë’s</a> second novel after <i><a href=\"https://standardebooks.org/ebooks/charlotte-bronte/jane-eyre\">Jane Eyre</a></i>. Published under her pseudonym of “Currer Bell,” it differs in several respects from that earlier work. It is written in the third person with an omniscient narrator, rather than the first-person of <i>Jane Eyre</i>, and incorporates the themes of industrial change and the plight of unemployed workers. It also features strong pleas for the recognition of women’s intellect and right to their independence of thought and action.</p>\n\t\t\t<p>Set in the West Riding of Yorkshire during the Napoleonic period of the early 19th Century, the novel describes the confrontations between textile manufacturers and organized groups of workers protesting the introduction of mechanical looms. Three characters stand out: Robert Moore, a mill-owner determined to introduce modern methods despite sometimes violent opposition; his young cousin Caroline Helstone, who falls deeply in love with Robert; and Shirley Keeldar, a rich heiress who comes to live in the estate of Fieldhead, on whose land Robert’s mill stands. Robert’s business is in trouble, not so much because of the protests of the workers but because of a government decree which prevents him selling his finished cloth overseas during the duration of the war with Napoleon. He receives a loan from Miss Keeldar, and her interest in him seems to be becoming a romantic one, much to the distress of Caroline, who pines away for lack of any sign of affection from Robert.</p>\n\t\t\t<p>Shirley Keeldar is a remarkable female character for the time: strong, very independent-minded, dismissive of much of the standard rules of society, and determined to decide on her own future. Interestingly, up to this point, the name “Shirley” was almost entirely a male name; Shirley’s parents had hoped for a boy. Such was the success of Brontë’s novel, however, that it became increasingly popular as a female name and is now almost exclusively so.</p>\n\t\t\t<p>Although never as popular or successful as the more classically romantic <i>Jane Eyre</i>, <i>Shirley</i> is nevertheless now highly regarded by critics.</p>",
+        "author": [
+          {
+            "name": "Charlotte Brontë",
+            "links": [
+              {
+                "href": "https://openlibrary.org/authors/OL113362A",
+                "type": "text/html",
+                "rel": "author"
+              }
+            ]
+          }
+        ],
+        "numberOfPages": 600
+      },
+      "links": [
+        {
+          "href": "https://lennyforlibraries.org/v1/api/opds/37044807",
+          "type": "application/opds-publication+json",
+          "rel": "self",
+          "templated": false
+        },
+        {
+          "href": "https://lennyforlibraries.org/v1/api/items/37044807/read",
+          "type": "text/html",
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "title": "Read",
+          "templated": false
+        }
+      ],
+      "images": [
+        {
+          "href": "https://covers.openlibrary.org/b/id/12622142-L.jpg",
+          "type": "image/jpeg",
+          "rel": "cover"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "The Jungle Book",
+        "type": "http://schema.org/Book",
+        "language": [
+          "en"
+        ],
+        "description": "<p><i>The Jungle Book</i> is a short collection of stories published by <a href=\"https://standardebooks.org/ebooks/rudyard-kipling\">Kipling</a> in various magazines between 1893 and 1894. Kipling spent both his early years and his late teenage years in India, and that upbringing is front and center in these stories—despite them being written while he was living in Vermont, in the United States.</p>\r\n\t\t\t<p>The stories are fable-like, with most of them centering on the lives of anthropomorphised jungle animals and a few focused on human characters in India. The stories were popular from the start, and have since been adapted in countless ways in print, screen, and other media.</p>",
+        "author": [
+          {
+            "name": "Rudyard Kipling",
+            "links": [
+              {
+                "href": "https://openlibrary.org/authors/OL24461A",
+                "type": "text/html",
+                "rel": "author"
+              }
+            ]
+          }
+        ],
+        "numberOfPages": 192
+      },
+      "links": [
+        {
+          "href": "https://lennyforlibraries.org/v1/api/opds/37044548",
+          "type": "application/opds-publication+json",
+          "rel": "self",
+          "templated": false
+        },
+        {
+          "href": "https://lennyforlibraries.org/v1/api/items/37044548/read",
+          "type": "text/html",
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "title": "Read",
+          "templated": false
+        }
+      ],
+      "images": [
+        {
+          "href": "https://covers.openlibrary.org/b/id/12621812-L.jpg",
+          "type": "image/jpeg",
+          "rel": "cover"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "An American Tragedy",
+        "type": "http://schema.org/Book",
+        "language": [
+          "en"
+        ],
+        "description": "<p>Clyde Griffith’s parents are poor street-preachers, but Clyde doesn’t “believe,” and finds their work demeaning. At fifteen he gets a job and starts to ease out of their lives, eventually landing in some trouble that causes him to flee the town where they live. Two years later, Clyde meets his well-off uncle, who owns a large factory in upstate New York. Clyde talks his way into a job at the factory, and soon finds himself supervising a roomful of women. All alone, generally shunned by his uncle’s family, and starved for companionship, he breaks the factory’s rules and begins a relationship with a young woman who works for him. But Clyde has visions of marrying a high-society woman, and fortune smiles on him in the form of the daughter of one of his uncle’s neighbors. Soon Clyde finds himself in a love triangle of his own making, and one from which he seems incapable of extracting himself.</p>\n\t\t\t<p>A newspaperman before he became a novelist, <a href=\"https://standardebooks.org/ebooks/theodore-dreiser\">Theodore Dreiser</a> collected crime stories for years of young men in relationships with young women of poorer means, where the young men found a richer, prettier girl who would go with him, and often took extreme measures to escape from the first girl. <i>An American Tragedy</i>, based on one of the most infamous of those real-life stories, is a study in lazy ambition, the very real class system in America, and how easy it is to drift into evil. It is populated with poor people who desire nothing more than to be rich, rich people whose only concern is to keep up with their neighbors and not be associated with the “wrong element,” and elements of both who care far more about appearances than reality. It offers further evidence that the world may be very different from 100 years ago, but the people in it are very much the same.</p>",
+        "author": [
+          {
+            "name": "Theodore Dreiser",
+            "links": [
+              {
+                "href": "https://openlibrary.org/authors/OL32271A",
+                "type": "text/html",
+                "rel": "author"
+              }
+            ]
+          }
+        ],
+        "numberOfPages": 784
+      },
+      "links": [
+        {
+          "href": "https://lennyforlibraries.org/v1/api/opds/37044530",
+          "type": "application/opds-publication+json",
+          "rel": "self",
+          "templated": false
+        },
+        {
+          "href": "https://lennyforlibraries.org/v1/api/items/37044530/read",
+          "type": "text/html",
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "title": "Read",
+          "templated": false
+        }
+      ],
+      "images": [
+        {
+          "href": "https://covers.openlibrary.org/b/id/12621789-L.jpg",
+          "type": "image/jpeg",
+          "rel": "cover"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "The Castle of Otranto",
+        "type": "http://schema.org/Book",
+        "language": [
+          "en"
+        ],
+        "description": "<p><i>The Castle of Otranto</i> is considered to be the first “Gothic” novel—that is, containing a combination of tropes, like hidden passages, haunted paintings, mysterious sounds, skeletal ghosts, ancestral curses, and unexplained deaths, that essentially invented the genre later made famous by authors like <a href=\"https://standardebooks.org/ebooks/edgar-allan-poe\">Edgar Allan Poe</a>, <a href=\"https://standardebooks.org/ebooks/bram-stoker\">Bram Stoker</a>, or <a href=\"https://standardebooks.org/ebooks/henry-james\">Henry James</a>. <a href=\"https://standardebooks.org/ebooks/horace-walpole\">Walpole</a> made a point of creating a novel that blends supernatural elements with more realistic depictions of characters and events.</p>\n\t\t\t<p>The plot centers around Manfred, the lord of Otranto Castle, who has just witnessed the death of his son under mysterious circumstances, just as his son was about to be married. Manfred is thrust into a galloping and melodramatic series of events that lean heavily on the supernatural.</p>\n\t\t\t<p>Walpole initially published <i>The Castle of Otranto</i> under a pseudonym, claiming that his work was a translation of an ancient Italian manuscript. This framing, along with the purposely archaic writing style, gives the supernatural airs of the novel a decidedly authentic flavor. In later editions Walpole acknowledges his authorship.</p>\n\t\t\t<p><i>Otranto</i> remains a fast-paced and familiar read, thanks to the variety of recognizable tropes it introduced and made popular.</p>",
+        "author": [
+          {
+            "name": "Horace Walpole",
+            "links": [
+              {
+                "href": "https://openlibrary.org/authors/OL2180322A",
+                "type": "text/html",
+                "rel": "author"
+              }
+            ]
+          }
+        ],
+        "numberOfPages": 114
+      },
+      "links": [
+        {
+          "href": "https://lennyforlibraries.org/v1/api/opds/37044696",
+          "type": "application/opds-publication+json",
+          "rel": "self",
+          "templated": false
+        },
+        {
+          "href": "https://lennyforlibraries.org/v1/api/items/37044696/read",
+          "type": "text/html",
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "title": "Read",
+          "templated": false
+        }
+      ],
+      "images": [
+        {
+          "href": "https://covers.openlibrary.org/b/id/12621986-L.jpg",
+          "type": "image/jpeg",
+          "rel": "cover"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Whose Body?",
+        "type": "http://schema.org/Book",
+        "language": [
+          "en"
+        ],
+        "description": "<p><i>Whose Body?</i>, published in 1923, is the first in a long and very popular series of mystery novels written by <a href=\"https://standardebooks.org/ebooks/dorothy-l-sayers\">Dorothy <abbr>L.</abbr> Sayers</a> and featuring her aristocratic detective Lord Peter Wimsey.</p>\r\n\t\t\t<p>In this novel we are introduced to Wimsey, his imperturbable and multi-skilled butler Bunter, and his close friend Charles Parker of Scotland Yard as they come together to investigate an extremely mysterious incident: the naked body of a man, wearing a golden pince-nez, has been discovered in the bath of a bewildered tenant of a flat in Battersea. There’s a good deal of humor in the book, carefully balanced against the grim reality of murder.</p>\r\n\t\t\t<p><i>Whose Body?</i> was well-received on first publication, and provided a basis for Sayer’s successful career as a novelist. In sum, she wrote some eleven Wimsey novels as well as several short stories featuring the characters. Nevertheless, it appears that she herself felt that her translation of <a href=\"https://standardebooks.org/ebooks/dante-alighieri\">Dante</a>’s <a href=\"https://standardebooks.org/ebooks/dante-alighieri/the-divine-comedy/henry-wadsworth-longfellow\"><i>Divine Comedy</i></a> was her greatest literary work.</p>",
+        "author": [
+          {
+            "name": "Dorothy L. Sayers",
+            "links": [
+              {
+                "href": "https://openlibrary.org/authors/OL197515A",
+                "type": "text/html",
+                "rel": "author"
+              }
+            ]
+          }
+        ],
+        "numberOfPages": 212
+      },
+      "links": [
+        {
+          "href": "https://lennyforlibraries.org/v1/api/opds/37044499",
+          "type": "application/opds-publication+json",
+          "rel": "self",
+          "templated": false
+        },
+        {
+          "href": "https://lennyforlibraries.org/v1/api/items/37044499/read",
+          "type": "text/html",
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "title": "Read",
+          "templated": false
+        }
+      ],
+      "images": [
+        {
+          "href": "https://covers.openlibrary.org/b/id/12621746-L.jpg",
+          "type": "image/jpeg",
+          "rel": "cover"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "The Pursuit of God",
+        "type": "http://schema.org/Book",
+        "language": [
+          "en"
+        ],
+        "description": "<p>Written in a single night on a train and first published in 1948, <a href=\"https://standardebooks.org/ebooks/a-w-tozer\"><abbr>A. W.</abbr> Tozer’s</a> <i>The Pursuit of God</i> is a classic Christian devotional book that explores the nature of the believer’s relationship with God. In it, Tozer emphasizes the importance of pursuing a deep and intimate relationship with God, rather than simply seeking religious knowledge or following a set of rules. Tozer argues that the pursuit of God requires a complete surrender of oneself to Him, as well as a willingness to embrace the mysteries and paradoxes of faith. He also stresses the importance of cultivating a life of prayer and meditation, and of seeking to experience the presence of God in every aspect of one’s life.</p> <p>Throughout <i>The Pursuit of God,</i> Tozer offers practical advice for those who desire to grow in their relationship with God. He encourages readers to seek God with a whole heart, to trust in His goodness and love, and to allow the Holy Spirit to transform their hearts and minds. Ultimately, Tozer’s message is one of hope and encouragement, reminding believers that the pursuit of God is not a burdensome duty, but a joyful and fulfilling journey that leads to abundant life and spiritual growth.</p> <p>In 2000, <i>The Pursuit of God</i> was named to <i>Christianity Today’s</i> list of 100 “Books of the Century.”</p>",
+        "author": [
+          {
+            "name": "A. W. Tozer",
+            "links": [
+              {
+                "href": "https://openlibrary.org/authors/OL38725A",
+                "type": "text/html",
+                "rel": "author"
+              }
+            ]
+          }
+        ],
+        "numberOfPages": 90
+      },
+      "links": [
+        {
+          "href": "https://lennyforlibraries.org/v1/api/opds/51733458",
+          "type": "application/opds-publication+json",
+          "rel": "self",
+          "templated": false
+        },
+        {
+          "href": "https://lennyforlibraries.org/v1/api/items/51733458/read",
+          "type": "text/html",
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "title": "Read",
+          "templated": false
+        }
+      ],
+      "images": [
+        {
+          "href": "https://covers.openlibrary.org/b/id/14634064-L.jpg",
+          "type": "image/jpeg",
+          "rel": "cover"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "Orthodoxy",
+        "type": "http://schema.org/Book",
+        "language": [
+          "en"
+        ],
+        "description": "<p><i>Orthodoxy</i> is <a href=\"https://standardebooks.org/ebooks/g-k-chesterton\">G. K. Chesterton’s</a> response to his critics’ assertion that his earlier collection of essays, <i><a href=\"https://standardebooks.org/ebooks/g-k-chesterton/heretics\">Heretics</a></i>, had “merely criticised current philosophies without offering any alternative philosophy.” In his intellectual journey from pagan to agnostic to positivist philosopher, he had attempted to build a philosophy “some ten minutes in advance of the truth.” But when he compared his modern philosophy with Christian theology, he realized that he was “the man who with the utmost daring discovered what had been discovered before.” Thus, <i>Orthodoxy</i> is a work of Christian apologetics, where Chesterton tries to show that Christianity is a universal answer to the everyday needs of humanity, and not just an arbitrary philosophy handed down from on high.</p>",
+        "author": [
+          {
+            "name": "Gilbert Keith Chesterton",
+            "links": [
+              {
+                "href": "https://openlibrary.org/authors/OL18524A",
+                "type": "text/html",
+                "rel": "author"
+              }
+            ]
+          }
+        ],
+        "numberOfPages": 156
+      },
+      "links": [
+        {
+          "href": "https://lennyforlibraries.org/v1/api/opds/37044733",
+          "type": "application/opds-publication+json",
+          "rel": "self",
+          "templated": false
+        },
+        {
+          "href": "https://lennyforlibraries.org/v1/api/items/37044733/read",
+          "type": "text/html",
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "title": "Read",
+          "templated": false
+        }
+      ],
+      "images": [
+        {
+          "href": "https://covers.openlibrary.org/b/id/12622038-L.jpg",
+          "type": "image/jpeg",
+          "rel": "cover"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "The Mystery of the Blue Train",
+        "type": "http://schema.org/Book",
+        "language": [
+          "en"
+        ],
+        "description": "<p><i>The Mystery of the Blue Train</i> revolves around a set of fabulous rubies, said to have been worn by Catherine the Great, now purchased by an American millionaire as a gift to his daughter. When she takes them with her on a luxury train to the Riviera, she is unaware that among her fellow passengers are her unfaithful husband, his not-so-secret mistress, a quiet Englishwoman who believes that nothing exciting ever happens to her—and the famous retired detective Hercule Poirot. And, possibly, a murderer.</p> <p>Despite positive critical reception of this entry in the <a href=\"https://standardebooks.org/collections/poirot\">Poirot</a> canon, <a href=\"https://standardebooks.org/ebooks/agatha-christie\">Christie</a> described this as the least favorite of her own novels. However, this is almost certainly due to the events in her personal life during that time: the death of her mother, followed closely by the discovery of her husband’s affair and his request for divorce. Suffering from what appears to have been a nervous breakdown, Christie famously disappeared for over a week in December 1926, triggering a nationwide search before she was discovered to have checked into a hotel under an assumed name. This novel was written in part during a three-month convalescence following those events.</p> <p>The book is dedicated to Christie’s secretary Charlotte Fisher and her pet terrier Peter, calling them “distinguished members of the O.F.D.” The “Order of Faithful Dogs” was Christie’s name for her circle of closest friends.</p>",
+        "author": [
+          {
+            "name": "Agatha Christie",
+            "links": [
+              {
+                "href": "https://openlibrary.org/authors/OL27695A",
+                "type": "text/html",
+                "rel": "author"
+              }
+            ]
+          }
+        ],
+        "numberOfPages": 257
+      },
+      "links": [
+        {
+          "href": "https://lennyforlibraries.org/v1/api/opds/51733472",
+          "type": "application/opds-publication+json",
+          "rel": "self",
+          "templated": false
+        },
+        {
+          "href": "https://lennyforlibraries.org/v1/api/items/51733472/read",
+          "type": "text/html",
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "title": "Read",
+          "templated": false
+        }
+      ],
+      "images": [
+        {
+          "href": "https://covers.openlibrary.org/b/id/14634083-L.jpg",
+          "type": "image/jpeg",
+          "rel": "cover"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "A Little Princess",
+        "type": "http://schema.org/Book",
+        "language": [
+          "en"
+        ],
+        "description": "<p>Sara Crewe, the daughter of a widowed officer stationed in India, has come to London to attend a boarding school. A thoughtful and serious child, she is blessed with both an abundance of kindness and imagination, and her father’s wealth. But not everyone in her new life appreciates Sara for who she is, as she discovers when her circumstances abruptly change.</p> <p>“Sara Crewe” was originally a short story, serialized in a children’s magazine. Its popularity led the author to expand it into an equally successful stage play, and from there it became this full-length novel. Much like <a href=\"https://standardebooks.org/ebooks/frances-hodgson-burnett\">Burnett’s</a> later children’s book <a href=\"https://standardebooks.org/ebooks/frances-hodgson-burnett/the-secret-garden\"><i>The Secret Garden</i></a>, dramatic events and sharply-defined characters give <i>A Little Princess</i> the qualities of a modern fairy tale.</p>",
+        "author": [
+          {
+            "name": "Frances Hodgson Burnett",
+            "links": [
+              {
+                "href": "https://openlibrary.org/authors/OL23767A",
+                "type": "text/html",
+                "rel": "author"
+              }
+            ]
+          }
+        ],
+        "numberOfPages": 224
+      },
+      "links": [
+        {
+          "href": "https://lennyforlibraries.org/v1/api/opds/51733815",
+          "type": "application/opds-publication+json",
+          "rel": "self",
+          "templated": false
+        },
+        {
+          "href": "https://lennyforlibraries.org/v1/api/items/51733815/read",
+          "type": "text/html",
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "title": "Read",
+          "templated": false
+        }
+      ],
+      "images": [
+        {
+          "href": "https://covers.openlibrary.org/b/id/14634372-L.jpg",
+          "type": "image/jpeg",
+          "rel": "cover"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "The Prophet",
+        "type": "http://schema.org/Book",
+        "language": [
+          "en"
+        ],
+        "description": "<p><i>The Prophet</i> is Lebanese-American writer <a href=\"https://standardebooks.org/ebooks/khalil-gibran\">Khalil Gibran’s</a> best known work. In the book, the prophet Almustafa is returning home after 12 years in the fictional city of Orphalese. Before he boards his ship, he speaks to the people of Orphalese on a number of universal themes such as love, work, marriage, beauty, and death, which form this collection of 26 short fables or prose poetry. First published in 1923, <i>The Prophet</i> has never been out of print since, and has been translated into over a hundred languages.</p>",
+        "author": [
+          {
+            "name": "Kahlil Gibran",
+            "links": [
+              {
+                "href": "https://openlibrary.org/authors/OL2890A",
+                "type": "text/html",
+                "rel": "author"
+              }
+            ]
+          },
+          {
+            "name": "R. Black",
+            "links": [
+              {
+                "href": "https://openlibrary.org/authors/OL3359633A",
+                "type": "text/html",
+                "rel": "author"
+              }
+            ]
+          }
+        ],
+        "numberOfPages": 112
+      },
+      "links": [
+        {
+          "href": "https://lennyforlibraries.org/v1/api/opds/37044636",
+          "type": "application/opds-publication+json",
+          "rel": "self",
+          "templated": false
+        },
+        {
+          "href": "https://lennyforlibraries.org/v1/api/items/37044636/read",
+          "type": "text/html",
+          "rel": "http://opds-spec.org/acquisition/open-access",
+          "title": "Read",
+          "templated": false
+        }
+      ],
+      "images": [
+        {
+          "href": "https://covers.openlibrary.org/b/id/12621917-L.jpg",
+          "type": "image/jpeg",
+          "rel": "cover"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "title": "The Quintet",
+        "type": "http://schema.org/Book",
+        "language": [
+          "en"
+        ],
+        "description": "The story of Leina Grey, a young loner who is pushed to unite a group of misfit prodigies, in order to resist a soulless, authoritarian regime called the Red Shepherds, led by their Protector.",
+        "author": [
+          {
+            "name": "Michael E. Karpeles (Mek)",
+            "links": [
+              {
+                "href": "https://openlibrary.org/authors/OL15509317A",
+                "type": "text/html",
+                "rel": "author"
+              }
+            ]
+          }
+        ]
+      },
+      "links": [
+        {
+          "href": "https://lennyforlibraries.org/v1/api/opds/59176589",
+          "type": "application/opds-publication+json",
+          "rel": "self",
+          "templated": false
+        },
+        {
+          "href": "https://lennyforlibraries.org/v1/api/items/59176589/borrow",
+          "type": "application/opds-publication+json",
+          "rel": "http://opds-spec.org/acquisition/borrow",
+          "title": "Lenny",
+          "templated": false,
+          "properties": {
+            "authenticate": {
+              "type": "application/opds-authentication+json",
+              "href": "https://lennyforlibraries.org/v1/api/oauth/implicit"
+            },
+            "availability": {
+              "state": "unavailable"
+            },
+            "indirectAcquisition": [
+              {
+                "type": "application/vnd.readium.lcp.license.v1.0+json",
+                "child": [
+                  {
+                    "type": "application/epub+zip"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "images": [
+        {
+          "href": "https://covers.openlibrary.org/b/id/15088934-L.jpg",
+          "type": "image/jpeg",
+          "rel": "cover"
+        }
+      ]
+    }
+  ],
+  "navigation": [
+    {
+      "href": "https://lennyforlibraries.org/v1/api/opds",
+      "title": "Home",
+      "type": "application/opds+json",
+      "rel": "alternate"
+    },
+    {
+      "href": "https://lennyforlibraries.org/v1/api/opds?offset=0&limit=50",
+      "title": "Catalog",
+      "type": "application/opds+json",
+      "rel": "collection"
+    },
+    {
+      "href": "https://lennyforlibraries.org/v1/api/oauth/implicit",
+      "title": "Authentication",
+      "type": "application/opds-authentication+json",
+      "rel": "http://opds-spec.org/auth/oauth/implicit"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "@context": "https://readium.org/webpub-manifest/context.jsonld",
+  "metadata": {
+    "@type": "http://schema/org/Book",
+    "title": "An Example Book",
+    "author": [
+      {
+        "name": "Author, Example"
+      }
+    ],
+    "publisher": {
+      "name": "Example Press"
+    },
+    "description": "A made-up publication used as a test fixture.",
+    "published": "1980",
+    "language": "eng",
+    "numberOfPages": 208
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://archive.org/services/loans/loan?action=webpub&identifier=examplebook00test",
+      "type": "application/opds-publication+json",
+      "properties": [
+        {
+          "authenticate": {
+            "href": "https://archive.org/services/loans/loan/?action=authentication_document",
+            "type": "application/opds-authentication+json"
+          }
+        }
+      ]
+    },
+    {
+      "rel": "http://opds-spec.org/acquisition",
+      "href": "https://archive.org/details/examplebook00test?view=theater",
+      "type": "text/html",
+      "title": "Internet Archive",
+      "properties": [
+        {
+          "availability": {
+            "state": "ready",
+            "since": "2000-01-01T00:00:00Z",
+            "until": "2000-01-15T00:00:00Z"
+          }
+        },
+        {
+          "authenticate": {
+            "href": "https://archive.org/services/loans/loan/?action=authentication_document",
+            "type": "application/opds-authentication+json"
+          }
+        }
+      ]
+    },
+    {
+      "rel": "http://opds-spec.org/acquisition",
+      "href": "https://archive.org/services/loans/loan/?action=media_url&identifier=examplebook00test&filename_base=examplebook00test&format=lcp_pdf&opds=1&redirect=1",
+      "type": "application/vnd.readium.lcp.license.v1.0+json",
+      "title": "Internet Archive",
+      "properties": {
+        "indirectAcquisition": [
+          {
+            "type": "application/vnd.readium.lcp.license.v1.0+json",
+            "child": [
+              {
+                "type": "application/pdf+lcp"
+              }
+            ]
+          }
+        ],
+        "availability": {
+          "state": "ready",
+          "since": "2000-01-01T00:00:00Z",
+          "until": "2000-01-15T00:00:00Z"
+        },
+        "authenticate": {
+          "href": "https://archive.org/services/loans/loan/?action=authentication_document",
+          "type": "application/opds-authentication+json"
+        },
+        "lcp_hashed_passphrase": "BLAH"
+      }
+    },
+    {
+      "rel": "http://opds-spec.org/acquisition",
+      "href": "https://archive.org/services/loans/loan/?action=media_url&identifier=examplebook00test&filename_base=examplebook00test&format=lcp_epub&opds=1&redirect=1",
+      "type": "application/vnd.readium.lcp.license.v1.0+json",
+      "title": "Internet Archive",
+      "properties": {
+        "indirectAcquisition": [
+          {
+            "type": "application/vnd.readium.lcp.license.v1.0+json",
+            "child": [
+              {
+                "type": "application/epub+zip"
+              }
+            ]
+          }
+        ],
+        "availability": {
+          "state": "ready",
+          "since": "2000-01-01T00:00:00Z",
+          "until": "2000-01-15T00:00:00Z"
+        },
+        "authenticate": {
+          "href": "https://archive.org/services/loans/loan/?action=authentication_document",
+          "type": "application/opds-authentication+json"
+        },
+        "lcp_hashed_passphrase": "BLAH"
+      }
+    }
+  ],
+  "images": [
+    {
+      "href": "https://archive.org/download/examplebook00test/page/cover_large.jpg",
+      "type": "image/jpeg",
+      "width": "1600",
+      "height": "2800",
+      "rel": "cover"
+    },
+    {
+      "href": "https://archive.org/download/examplebook00test/page/cover_medium.jpg",
+      "type": "image/jpeg",
+      "width": "800",
+      "height": "1400",
+      "rel": "cover"
+    },
+    {
+      "href": "https://archive.org/download/examplebook00test/page/cover_small.jpg",
+      "type": "image/jpeg",
+      "width": "400",
+      "height": "700",
+      "rel": "cover"
+    }
+  ]
+}

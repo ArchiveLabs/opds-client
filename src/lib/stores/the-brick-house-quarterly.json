@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "@type": "http://schema.org/Book",
+    "title": "The Brick House Apparent Quarterly, Vol. 1",
+    "language": "fr",
+    "identifier": "urn:isbn:9782373058284",
+    "modified": "2025-09-20T05:45:52.909Z",
+    "published": "2025-09-05T04:00:00.000Z",
+    "numberOfPages": 351,
+    "author": [
+      {
+        "name": "Maria Bustillos"
+      },
+      {
+        "name": "David Moore"
+      },
+      {
+        "name": "Kọ́lá Túbọ̀sún"
+      },
+      {
+        "name": "Joe MacLeod"
+      },
+      {
+        "name": "Paul Ford"
+      },
+      {
+        "name": "Emma Roller"
+      },
+      {
+        "name": "Salawu Ọlájídé"
+      }
+    ],
+    "publisher": {
+      "name": "The Brick House Cooperative"
+    },
+    "description": "A wild literary feast featuring the mysteries of faith, furniture shopping, grief, Taiwan’s precarious role in global supply chains, edgelords, artificial intelligence, a Nigerian train, Miami crime reporting, Washington sleaze, the shortcomings of Joan Didion, Wolé Sóyínká’s art addiction, and where to buy Elvish waybread."
+  },
+  "images": [
+    {
+      "href": "/public/brick-house-quarterly.jpg",
+      "type": "image/jpeg",
+      "width": 9999
+    },
+    {
+      "href": "/public/brick-house-quarterly-small.jpg",
+      "type": "image/jpeg",
+      "width": 99
+    }
+  ],
+  "links": [
+    {
+      "rel": "self",
+      "href": "/public/the-brick-house-quarterly.json",
+      "type": "application/opds-publication+json"
+    },
+    {
+      "rel": "http://opds-spec.org/acquisition/buy",
+      "type": "application/epub",
+      "href": "https://buy.stripe.com/test_4gM6oG0CI8Efg9cbbb2Nq01",
+      "properties": {
+        "price": {
+          "currency": "USD",
+          "value": 25.00
+        }
+      }
+    }
+  ]
+}
